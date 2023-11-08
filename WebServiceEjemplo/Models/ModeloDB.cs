@@ -11,8 +11,8 @@ namespace WebServiceEjemplo.Models
             : base("name=ModeloDB")
         {
         }
-
         public virtual DbSet<Producto> Productos { get; set; }
+
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
